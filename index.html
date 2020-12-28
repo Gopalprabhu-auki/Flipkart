@@ -50,9 +50,9 @@
 
         <i class="fa fa-shopping-cart header__cart" aria-hidden="true"> <span class="header__carttext"> Cart</span></i>
     </div>
-
+</header>
     <div class="row row1">
-        <div class="dropdown show">
+        
             <a class="btn btn-secondary dropdown-toggle row1__dropdown row1__dropdown--spacing" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Electronics <i class="fa fa-angle-down" aria-hidden="true"></i>
             </a>
@@ -153,25 +153,37 @@
 
 
     </div>
-</header>
 
+<div class="bg">
 <slider >
-    <div class="container slider__pad">
+    <div class="container slider__pad bg-color">
     <div id="myCarousel" class="carousel slide slider" data-ride="carousel">
         
       
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
           <div class="item active">
-            <img src="https://rukminim1.flixcart.com/flap/50/50/image/3ebae1ea0b6e13bd.jpg?q=50" class="slider__image" alt="Los Angeles">
+            <img src="slider1.png" class="slider__image" alt="Los Angeles">
           </div>
       
           <div class="item">
-            <img src="https://rukminim1.flixcart.com/flap/50/50/image/4ac8991c14b0fd6d.jpg?q=50" class="slider__image"  alt="Chicago">
+            <img src="slider2.png" class="slider__image"  alt="Chicago">
           </div>
       
           <div class="item">
-            <img src="https://rukminim1.flixcart.com/flap/50/50/image/4ac8991c14b0fd6d.jpg?q=50" class="slider__image"  alt="New York">
+            <img src="slider3.png" class="slider__image"  alt="New York">
+          </div>
+
+          <div class="item">
+            <img src="slider4.png" class="slider__image"  alt="New York">
+          </div>
+
+          <div class="item">
+            <img src="slider5.png" class="slider__image"  alt="New York">
+          </div>
+
+          <div class="item">
+            <img src="slider6.png" class="slider__image"  alt="New York">
           </div>
         </div>
       
@@ -188,6 +200,122 @@
     </div>
 </slider>
 
+<section3>
+    <div class="container section3__container bg-color">
+        <div class="row section3__row">
+            <h2 class="section3_heading">
+                Deals of the Day
+            </h2>
+            <p id="demo" class="timer text-center"></p> <button type="button" class="btn btn-primary section3__button">VIEW ALL</button>
 
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML =  hours + " :"
+  + minutes + " : " + seconds + " Left ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+        </div>
+    </div>
+</section3> 
+
+<section4>
+    <div class="container section4__container">
+    <div id="carouselExampleIndicators2" class="carousel slide carousel--bottom bg-white" data-interval="false" >
+        <div class="carousel-inner section4__carousel--width">
+        <div class="carousel-item section4__carousel--width active">
+        <div class="row section4__row">
+                <div class="card card__sec4" >
+                  <img src="card1.jpeg" class="card-img-top img-fluid card__image" alt="...">
+                  <div class="card-body">
+                    <div class="card__heading card__heading--pad text-center">Christmas Essentials</div>
+                    <p class="card__text card__text--color text-center">From ₹99</p>
+                    <p class="card__brief text-center">Christmas Tree &amp; more</p>
+                   
+                  </div>
+              </div>
+                <div class="card card__sec4" >
+                    <img src="card2.jpg" class="card-img-top img-fluid card__image" alt="...">
+                    <div class="card-body">
+                      <div class="card__heading text-center">Sports &amp; Fitness Acce..</div>
+                      <p class="card__text card__text--color text-center">Upto 80% Off</p>
+                      <p class="card__brief text-center">Badminton, Dumbbells &..</p>
+                     
+                    </div>
+                </div>
+                <div class="card card__sec4 d-none d-md-none d-lg-block" >
+                  <img src="card3.jpeg" class="card-img-top img-fluid card__image" alt="...">
+                    <div class="card-body">
+                      <div class="card__heading text-center">Home Furnishing Range</div>
+                    <p class="card__text card__text--color text-center">From ₹129</p>
+                    <p class="card__brief text-center">Bedsheets & more</p>
+                     
+                  </div>
+              </div>
+              <div class="card card__sec4" >
+                <img src="card4.png" class="card-img-top img-fluid card__image" alt="...">
+                  <div class="card-body">
+                    <div class="card__heading text-center">Every Reason To Shop..</div>
+                    <p class="card__text card__text--color text-center">From₹99+Extra Upto20%</p>
+                    <p class="card__brief text-center">Bestsellers@Lowest..</p>
+                     
+                  </div>
+              </div>
+              <div class="card card__sec4" >
+                <img src="card5.jpeg" class="card-img-top img-fluid card__image" alt="...">
+                  <div class="card-body">
+                    <div class="card__heading text-center">Men's Grooming</div>
+                    <p class="card__text card__text--color text-center">Extra 5% Off</p>
+                    <p class="card__brief text-center">Garnier, Nivea Men..</p>
+                  </div>
+              </div>
+              <div class="card card__sec4" >
+                <img src="card6.jpeg" class="card-img-top img-fluid card__image" alt="...">
+                  <div class="card-body">
+                    <div class="card__heading text-center">Fragrances Best Sellers</div>
+                    <p class="card__text card__text--color text-center">Extra 5% Off</p>
+                    <p class="card__brief text-center">Denver, Fogg & More</p>
+                </div>
+              </div>
+              <div class="card card__sec4" >
+                <img src="card6.jpeg" class="card-img-top img-fluid card__image" alt="...">
+                  <div class="card-body">
+                    <div class="card__heading text-center">Fragrances Best Sellers</div>
+                    <p class="card__text card__text--color text-center">Extra 5% Off</p>
+                    <p class="card__brief text-center">Denver, Fogg & More</p>
+                </div>
+              </div>
+         </div>
+       </div>
+       </div>
+    </div>
+       
+
+</section4>
+
+</div>
 </body>
 </html>
