@@ -1,0 +1,271 @@
+
+.header__logo{
+    float: left;
+}
+.header__searchbox{
+    float: left;
+}
+.header__login--color{
+    background-color: white;
+    color: #2874f0 ;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+}
+.header__dropdown{
+    color: white;
+    font-weight: 600;
+    float: left;
+}
+.header__cart{
+    color: white;
+    float: left;
+}
+.header__carttext{
+    font-family:  'Roboto', sans-serif;
+}
+.row1__dropdown{
+    float: left;
+    color: black;
+    font-family:  'Roboto', sans-serif;
+}
+.slider__image{
+    width: 100%;
+}
+.slider{
+    margin-top: 10px;
+}
+
+
+
+
+/*----------small----------*/
+@media screen and (max-width: 380px)
+{
+.header__row{
+    background-color: #2874f0;
+    height: 22px;
+}
+.header__logo--size{
+    height: 22px;
+    margin-bottom: 10px;
+}
+.header__logo{
+    max-width: 30px;
+    margin-left: 71px;
+}
+.header__search{
+    height:15px;
+    margin-top: 3px;
+    margin-left: -10px;
+    width: 115px !important;
+    border: none;
+}
+::placeholder{
+    font-size: 5px;
+    margin-bottom: 10px !important;
+    margin-left: -5px;
+}
+
+.form-control{
+    font-size: 8px;
+    padding: 6px 6px;
+}
+.header__login{
+    width: 48px;
+    height: 12px;
+    font-size: 6px;
+    padding: 0px;
+    border-radius: 0;
+    margin-left:-8px;
+    margin-top: 5px;
+    border-style: none;
+
+}
+.header__dropdown{
+    margin-left: 1px;
+    margin-top: 0px;
+    font-size: 6px;
+    
+}
+.header__cart{
+    margin-left: 4px;
+    margin-top: 8px;
+    font-size: 6px;
+    
+}
+.header__carttext{
+    
+    font-size: 6px;
+    font-weight: 400;
+    padding-left: 2px;
+}
+.row1__dropdown{
+  
+    padding-left: 0px;
+    padding-top: 8px;
+    font-weight: 300;
+    font-size: 5px;
+}
+.row1__dropdown--spacing{
+    
+}
+
+}
+
+/*-----------medium-------------*/
+@media screen and (min-width: 700px) and (max-width: 1025px)
+{
+.header__row{
+    background-color: #2874f0;
+    height: 44px;
+}
+.header__logo--size{
+    height: 44px;
+}
+.header__logo{
+    max-width: 62px;
+    margin-left: 144px;
+}
+
+.header__search{
+    height:29px;
+    margin-top: 8px;
+    margin-left: -8px;
+    width: 238px !important;
+    border: none;
+}
+::placeholder{
+    font-size: 11px;
+    padding-top:-5px !important;
+}
+.header__login{
+    width: 95px;
+    height: 25px;
+    font-size: 6px;
+    padding: 0px;
+    border-radius: 0;
+    margin-top: 10px;
+    margin-left: 2px;
+    border-style: none;
+    font-size: 12px;
+
+}
+.header__dropdown{
+    margin-left: 19px;
+    margin-top: 7px;
+    font-size: 12px;
+    
+}
+.header__cart{
+    margin-left: 21px;
+    margin-top: 15px;
+    font-size: 13px;
+    
+}
+.header__carttext{
+    
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 4px;
+}
+.row1{
+   
+    height: 32px;
+}
+.row1__dropdown{
+  
+    padding-left: 0px;
+    padding-top: 8px;
+    font-weight: 500;
+    font-size: 10.8px;
+}
+.row1__dropdown--spacing{
+    margin-left: 18px;
+}
+
+    
+    
+}    
+
+
+/*-----------LArge-----------------*/
+@media screen and (min-width: 1027px)
+{
+.header__row{
+    background-color: #2874f0;
+    height: 51px;
+    width:1280px;
+}
+.header__logo--size{
+    height: 51px;
+}
+.header__logo{
+    max-width:82px;
+    margin-left: 167px;
+}
+.header__search{
+    height:35px;
+    margin-top: 8px;
+    margin-left: -7px !important;
+    width: 505px !important;
+    border: none;
+}
+::placeholder{
+    font-size: 12px;
+    color: black;
+    padding-top:-5px !important;
+}
+.header__login{
+    width: 110px;
+    height: 29px;
+    font-size: 14px !important;
+    padding: 0px;
+    border-radius: 0;
+    margin-top: 10px;
+    margin-left: -38px;
+    border-style: none;
+    font-size: 12px;
+
+}
+.header__dropdown{
+    margin-left: 23px;
+    margin-top: 8px;
+    
+}
+.header__cart{
+    margin-left: 26px;
+    margin-top: 18px;
+    font-size: 15px;
+    
+}
+.header__carttext{
+    
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 4px;
+}
+.row1{
+    border-bottom: black;
+    height: 88px;
+}
+.row1__dropdown{
+    float: left;
+    color: black;
+    font-family:  'Roboto', sans-serif;
+    padding-left: 24px;
+    padding-top: 8px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.row1__dropdown--spacing{
+    margin-left: 60px;
+}
+.slider__pad{
+    margin: 5px;
+    padding: 1px;
+    width: 1230px;
+}
+    
+}
+    
