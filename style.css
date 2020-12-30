@@ -101,6 +101,9 @@
 /*----------small----------*/
 @media screen and (max-width: 380px)
 {
+.section3__container{
+    margin-top: 7px !important;
+}
 .header__row{
     background-color: #2874f0;
     height: 22px;
@@ -403,6 +406,22 @@
   .sectionsm5__pad{
       margin-top: 15px !important;
   }
+.smnone{
+    display: none;
+}
+.fk-banner-heading{
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.fk-banner-description{
+    font-size: 11px;
+    margin-left: 16px;
+    margin-top: -8px !important;
+}
+.sectionsm5__image{
+    margin-left: 3px;
+}
   
 
 }
@@ -712,6 +731,7 @@ html,body{
     height: 51px;
     width:1280px;
 }
+
 .header__logo--size{
     height: 51px;
 }
@@ -729,6 +749,7 @@ html,body{
 .headersm__row{
     display:none;
 }
+
 ::placeholder{
     font-size: 12px;
     color: black;
