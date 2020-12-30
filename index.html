@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
+<header id="myHeader">
     <div class="row col-12 col-md-12 col-lg-12 header__row ">
         <div class="header__logo">
             <img src="logo.PNG"  class="header__logo--size" alt="">
@@ -52,7 +52,7 @@
     </div>
 </header>
 <phone>
-<header__phone ><div class="section1sm">
+<header  id="myHeader__phone" ><div class="section1sm">
     <div class="row headersm__row ">
         <i class="fa fa-bars headersm__ham" aria-hidden="true"></i>
         <img src="logosm.PNG" class="logosm" alt="">
@@ -65,7 +65,7 @@
               <input class="form-control my-0 py-1 amber-border headersm__search " type="text" placeholder="Search for products, brands and more" aria-label="Search">
             </div>
         </div>
-    </div></header__phone>
+    </div></header>
     <div class="container-fluid section1sm hidden-lg-none">
         <div class="row bg-white ">
           <div class="col-3">
@@ -86,7 +86,7 @@
         </div>
       </div>
 </div>
-<header__phone ><div class="section1sm">
+<header><div class="section1sm">
 <smsection2 >
     <div id="myCarousel" class="carousel slide slider" data-ride="carousel">
         
@@ -576,11 +576,11 @@
         </div>
       
         <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <a class="left carousel-control " href="#myCarousel" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <a class="right carousel-control " href="#myCarousel" data-slide="next">
           <span class="glyphicon glyphicon-chevron-right"></span>
           <span class="sr-only">Next</span>
         </a>
@@ -1173,5 +1173,45 @@ var x = setInterval(function() {
 
 
 </div>
+
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+<script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+    
+    // Get the header
+    var header = document.getElementById("myHeader__phone");
+    
+    // Get the offset position of the navbar
+    var sticky = header.offsetTop;
+    
+    // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
 </body>
+
 </html>
