@@ -36,7 +36,7 @@
     margin-top: 10px;
 }
 .bg{
-    background-color: rgb(216, 214, 214);
+    background-color: rgb(243, 241, 241);
     
 }
 .bg-color{
@@ -95,6 +95,11 @@
     font-family: 'Roboto', sans-serif;
 }
  
+.banner__button{
+    background-color: rgb(199, 9, 9);
+    color: white;
+    border-style: none;
+}
 
 
 
@@ -422,6 +427,9 @@
 .sectionsm5__image{
     margin-left: 3px;
 }
+.images2{
+    float: left;
+}
   
 
 }
@@ -505,12 +513,13 @@
 .slider__pad{
     margin: 5px;
     padding: 1px;
-    width: 764px;
+    width: 750px;
     
     
 }
 .slider__image{
     height: 210px !important;
+    
 }
 .section3_heading{
     font-size: 17px;
@@ -522,7 +531,7 @@
 .section3__container{
     margin-top: 8px;
     margin-left: 6px;
-    width: 762px;
+    width: 745px;
 }
 .bg{
    width: 780px;
@@ -558,7 +567,7 @@
     margin-right: 0;
 }
 .section4__carousel--width{
-    width:888px;
+    width:744px;
 }
 .card__heading{
     padding-top: 12px;
@@ -615,6 +624,8 @@ html,body{
     font-size: 10px;
     padding-left: 20px;
     max-width: 750px;
+    line-height: 15px;
+    opacity: 0.8;
 }
 .article__text{
     font-size: 9px;
@@ -633,14 +644,20 @@ html,body{
 }
 .list__second{
     width:95px;
+    margin-left: -15px;
 }
 .list3__pad{
+    margin-top: 25px;
+    margin-left: -25px;
+}
+.list4__pad{
+    margin-top: 25px;
     margin-left: -15px;
 }
 .list__title{
     font-size: 9px;
     font-weight: 400;
-    letter-spacing: -0.2px;
+    letter-spacing: -0.2px; 
     line-height: 16.8px;
     color: #878787;
     display: contents;
@@ -658,6 +675,7 @@ html,body{
 }
 .list__item--pad{
     margin-top: 9px;
+   
 }
 .address{
     font-size: 11px;
@@ -675,6 +693,7 @@ html,body{
     height: 125px;
     
     
+    
 }
 .list--width2{
     width: 16em;
@@ -690,10 +709,14 @@ html,body{
     display: inline-block;
     text-decoration: none !important;
     padding-right: 31px;
-    margin-left: -23px;
-    margin-right: 26px;
-    font-size: 12px;
+    margin-left: -80px;
+    margin-right: 55px;
+    font-size: 9px;
     color: white;
+    float: left;
+}
+._2bn__pay{
+    display: none;
 }
 .footer__row{
    margin-left: -18px;
@@ -703,16 +726,74 @@ html,body{
     
 }
 .list__wholepad1{
-    
+    margin-left: 0px;
 }
 .list__wholepad2{
-    
+    margin-left: -35px;
 }
 
 .footer__bottom--links{
     text-decoration: none;
     color: white;
+    
 }
+.section6__button--pad{
+    margin-left: 499px;
+}
+.last2bn{
+    margin-right: 0px;
+    margin-top: 1px;
+}
+._2bn__payment{
+    width: 0px;
+    margin-left: -45px !important;
+    height: 3px;
+}
+.card__image--thispad{
+    margin-left: 15px;
+}
+.section4__container--pad{
+    margin: -5px;
+    
+}
+.section3__container--pad{
+    margin: 0px;
+    width: 745px;
+}
+.banner-left {
+    position: absolute;
+    transform: translate(2%, -226%);
+    width: fit-content;
+    margin-left: 10px;
+    margin-top: 62px;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+}
+.banner-center {
+    position: absolute;
+    transform: translate(2%, -226%);
+    width: fit-content;
+    margin-left:-5px;
+    margin-top: 62px;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+}
+.uptopad{
+    margin-top: -6px;
+}
+.banner-last {
+    position: absolute;
+    transform: translate(2%, -226%);
+    width: 550px;
+    margin-left: -10px;
+    margin-top: 62px;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+}
+
 
 
     
@@ -931,7 +1012,7 @@ html,body{
 }
 
 .list3__pad{
-    margin-left: -15px;
+    margin-left: 45px;
 }
 .list__title{
     font-size: 11px;
@@ -942,6 +1023,9 @@ html,body{
     display: contents;
     
 }
+.list__second{
+    margin-left: 35px;
+}
 .list__item{
     letter-spacing: -0.2px;
     line-height: 21.5px;
@@ -950,9 +1034,13 @@ html,body{
     text-decoration: none;
     font-size: 11px;
     font-weight: 400;
+    width:200px;
 }
 .list__item--pad{
     margin-top: 8px;
+}
+.list__wholepad--first{
+    margin-left: -65px;
 }
 .address{
     font-size: 11px;
@@ -969,7 +1057,7 @@ html,body{
     width:17em;
     height: 125px;
     padding-left: 25px;
-    margin-left: 72px;
+    margin-left: 179px;
 }
 .list--width2{
     width: 16em;
@@ -995,7 +1083,8 @@ html,body{
    width: 1240px;
 }
 .list__wholepad{
-    padding-left: 60px;
+    padding-left: 120px;
+    
 }
 .list__wholepad1{
     padding-left: 23px;
@@ -1033,5 +1122,38 @@ html,body{
 .section5-container{
     margin-top: -7px;
 }
+._2bn__payment{
+    display: none;
+}
+.banner-left {
+    position: absolute;
+    transform: translate(2%, -226%);
+    width: fit-content;
+    margin-left: 12px;
+    margin-top: 32px;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+.banner-center {
+    position: absolute;
+    transform: translate(2%, -226%);
+    width: fit-content;
+    margin-left: 62px;
+    margin-top: 32px;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+.banner-last {
+    position: absolute;
+    transform: translate(2%, -226%);
+    width: 550px;
+    margin-left: 108px;
+    
+    margin-top: 32px;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+}
+  
+
 }
     
