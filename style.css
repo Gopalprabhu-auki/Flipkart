@@ -111,6 +111,10 @@ header{
 .header__phone{
     z-index: 1;
 }
+.searchicon{
+    background-color: white;
+    border-style: none;
+}
 
 
 
@@ -799,7 +803,7 @@ html,body{
 .banner-last {
     position: absolute;
     transform: translate(2%, -226%);
-    width: 550px;
+    width: 210px;
     margin-left: -10px;
     margin-top: 62px;
     font-size: 13px;
@@ -809,6 +813,12 @@ html,body{
 .section3__container--sec10{
     margin-left:-6px;
     width: 755px;
+}
+.searchicon{
+    margin-top: 8px;
+    height: 29px;
+    width: 28px;
+    color:#2874f0 ;
 }
 
 
@@ -821,6 +831,12 @@ html,body{
 /*-----------LArge-----------------*/
 @media screen and (min-width: 1027px)
 {
+    .searchicon{
+        margin-top: 8px;
+        height: 35px;
+        width: 30px;
+        color:#2874f0 ;
+    }
 .section1sm{
     display: none;
 }
