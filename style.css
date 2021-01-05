@@ -4,6 +4,7 @@
 }
 .header__searchbox{
     float: left;
+    
 }
 .header__login--color{
     background-color: white;
@@ -11,6 +12,7 @@
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     float: left;
+    border-radius: 1.5px !important;
 }
 .header__dropdown{
     color: white;
@@ -114,6 +116,9 @@ header{
 .searchicon{
     background-color: white;
     border-style: none;
+}
+html, body{
+    font-family:'Roboto', sans-serif;
 }
 
 
@@ -272,6 +277,24 @@ header{
     background-color: white;
 
 }
+.article__headingsm{
+    font-size: 14px;
+    padding-left: 20px;
+    font-weight: 600;
+    color:#878787;
+}
+.colapse__button{
+    width: 100%;
+    background-color: white;
+    border-color: white;
+    border-style: none;
+
+
+
+}
+.article--pad{
+    margin-left: 8px;
+}
 .form-control{
     font-size: 8px;
     padding: 6px 6px;
@@ -289,6 +312,17 @@ header{
 .slider__image{
     height: 160px !important;
 }
+.headersm__seachicon{
+    float: left;
+    margin-left: 24px;
+    margin-top: -5px;
+    background-color: white;
+    border-style: none;
+    height: 40px;
+    border-top-left-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
+    
+}
 
 .logosm{
     margin-left: -12px;
@@ -300,14 +334,17 @@ header{
     margin-left: 145px;
 }
 .headersm__search{
-    margin-top: -4px;
-    margin-left: 23px;
-    width: 358px !important;
+    margin-top: -40px;
+    margin-left: 47px;
+    width: 333px !important;
     height: 40px;
+    border-color:white;
+    border-radius: 3px !important;
     
 }
 .headersm__searchbox{
     width: 250px;
+    
     
 }
 .headersm__login{
@@ -446,6 +483,12 @@ header{
 .images2{
     float: left;
 }
+.article__textsm{
+    font-size: 12px;
+    padding-left: 20px;
+    max-width: 375px;
+    opacity: 0.8;
+}
   
 
 }
@@ -498,12 +541,14 @@ header{
     margin-left: 19px;
     margin-top: 7px;
     font-size: 12px;
+    font-weight: 500;
     
 }
 .header__cart{
     margin-left: 21px;
     margin-top: 15px;
     font-size: 13px;
+    font-weight: 600;
     
 }
 .header__carttext{
@@ -511,6 +556,7 @@ header{
     font-size: 12px;
     font-weight: 400;
     padding-left: 4px;
+    font-weight: 500;
 }
 .row1{
    
@@ -530,7 +576,8 @@ header{
 .slider__pad{
     margin: 5px;
     padding: 1px;
-    width: 758px;
+    width: 755px;
+    
     
     
 }
@@ -547,7 +594,7 @@ header{
 }
 .section3__container{
     margin-top: 8px;
-    margin-left: 0px;
+    margin-left: 5px;
     width: 755px;
 }
 .bg{
@@ -712,6 +759,9 @@ html,body{
     
     
 }
+.section3__button--pad{
+    margin-left: 385px !important;
+}
 .list--width2{
     width: 16em;
     padding-left: 25px;
@@ -819,6 +869,11 @@ html,body{
     height: 29px;
     width: 28px;
     color:#2874f0 ;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.section3__container--sec9{
+    margin-left: 0px;
 }
 
 
@@ -831,12 +886,17 @@ html,body{
 /*-----------LArge-----------------*/
 @media screen and (min-width: 1027px)
 {
-    .searchicon{
-        margin-top: 8px;
-        height: 35px;
-        width: 30px;
-        color:#2874f0 ;
-    }
+html,body{
+    overflow-x: hidden;
+}
+.searchicon{
+    margin-top: 8px;
+    height: 35px;
+    width: 30px;
+    color:#2874f0 ;
+    border-top-right-radius:2px ;
+    border-bottom-right-radius:2px ;
+}
 .section1sm{
     display: none;
 }
@@ -859,6 +919,8 @@ html,body{
     margin-left: -7px !important;
     width: 505px !important;
     border: none;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
 }
 .headersm__row{
     display:none;
@@ -884,6 +946,7 @@ html,body{
 .header__dropdown{
     margin-left: 23px;
     margin-top: 8px;
+    font-weight: 500;
     
 }
 .header__cart{
@@ -895,8 +958,11 @@ html,body{
 .header__carttext{
     
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     padding-left: 4px;
+}
+.section3__button--pad{
+    margin-left: 780px !important;
 }
 .row1{
     border-bottom: black;
@@ -917,7 +983,7 @@ html,body{
 .slider__pad{
     margin: 5px;
     padding: 1px;
-    width: 1230px;
+    width: 1215px;
     margin-top: 0px !important;
     
     
@@ -935,7 +1001,7 @@ html,body{
 .section3__container{
     margin-top: 10px;
     margin-left: 6px;
-    width: 1228px;
+    width: 1215px;
 }
 .timer{
     margin-top:19px;
@@ -969,7 +1035,7 @@ html,body{
     margin-right: 0;
 }
 .section4__carousel--width{
-    width:1228px;
+    width:1215px;
 }
 .card__heading{
     padding-top: 12px;
@@ -1008,14 +1074,14 @@ html,body{
     height: 220px;
 }
 .section6__button--pad{
-    margin-left: 940px;
+    margin-left: 906px;
 }
 .card:hover img{
     transform: scale(1.05);
 }
 .section11__row{
     background-color: white;
-    width: 1236px;
+    width: 1228px;
     margin-left: -18px;
     margin-top: 15px;
     
@@ -1139,15 +1205,15 @@ html,body{
 }
 .section3__con--sec9{
     margin-left: 0px !important;
-    width: 1227px;
+    width: 1215px;
 }
 .section3__con--sec10{
     margin-left: -5px ;
-    width: 1227px !important;
+    width: 1215px !important;
 }
 .section3__container--sec10{
     margin-left: -10px;
-    width: 1227px;
+    width: 1215px;
 }
 .section3__container--sec9{
     margin-left: -4px;
@@ -1186,6 +1252,10 @@ html,body{
     font-size: 18px;
     letter-spacing: 0.2px;
 }
+.section5-container--width{
+    margin-left: -5px;
+}
+
   
 
 }
